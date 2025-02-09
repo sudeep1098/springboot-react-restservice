@@ -1,0 +1,33 @@
+# Ignore node_modules and other build files for frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.DS_Store
+
+# Ignore IDE files (VSCode, JetBrains, Eclipse)
+.vscode/
+.idea/
+*.iml
+
+# Ignore Spring Boot compiled files
+backend/target/
+backend/.gradle/
+backend/.mvn/
+backend/logs/
+backend/*.log
+backend/.DS_Store
+
+# Ignore dependencies for Maven/Gradle
+backend/.m2/
+backend/.gradle/
+backend/gradle/
+backend/build/
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+*.swp
+
+# Ignore environment files
+*.env
